@@ -45,7 +45,7 @@ Clone the project by adding the following command in the terminal.
 Make sure your have git installed and added to path.
 
 ```bash
-git clone https://github.com/Rohitbiradar111/Github-Profile-Search-Project
+git clone https://github.com/Rohitbiradar111/Github-Profile-Search-Project.git
 ```
 Install dependencies
 
