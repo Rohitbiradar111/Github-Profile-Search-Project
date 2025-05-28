@@ -1,71 +1,98 @@
+<div align="center">
+  <div>
+    <a href="https://rohitbiradar111.github.io/Github-Profile-Search-Project/" target="_blank">
+      <img src="https://github.com/user-attachments/assets/a9fe56d1-0301-467f-bb6f-7cfe96c59163" alt="Project Image">
+    </a>
+  </div>
+  <h1 align="center">Github Profile Search</h1>
+</div>
 
-<h1 align="center" style="font-weight: bold;">Github Profile Search</h1>
+## 📋 <a name="table">Table of Contents</a>
 
-<p align="center">
-<a href="#technologies">Technologies</a>
-<a href="#started">Getting Started</a>
-<a href="#contribute">Contribute</a> 
-</p>
+1. 💡 [Overview](#overview)
+2. 👩‍💻 [Tech Stack](#tech-stack)
+3. ✨ [Features](#features)
+4. 📦 [Getting Started](#getting-started)
+5. 📖 [Documentation](#documentation)
+6. 📫 [Contribute](#contribute)
+7. 🐛 [Issues](#issues)
 
+## <a name="overview">💡 Overview</a>
 
-<p align="center">
 GitHub Profile Search is a responsive web app that retrieves GitHub user profiles including details like avatars, bios, and the latest repositories directly from the GitHub API for quick, user-friendly insights.
-<br>
-<br>
-Used the GitHub API to fetch essential user data, such as the user's avatar, biography, followers count, following count and an overview of their repositories. Displayed this information in a clean, card-based format, ensuring users can easily view important details about any GitHub profile they search for.
-<br>
-<br>
-Showcased five most recent repositories from each user, with each repository name being a clickable link. These links open the respective GitHub repository pages, allowing users to quickly access more detailed information about the repositories and interact with them directly.
-<br>
-<br>
-Implemented strong error handling to ensure that users are notified if their search returns no results or if there’s an issue with the input. The application also fetches real-time data from GitHub, so users always get the most up-to-date profile and repository information.
-<br>
-<br>
-Designed the layout using CSS, which makes the interface responsive and adaptable to different screen sizes. The app is powered by JavaScript to handle API requests efficiently, and used mobile first media queries to ensure the experience is optimized for smaller devices while still providing full functionality on larger screens.
-</p>
 
-
-<p align="center">
-<a href="https://rohitbiradar111.github.io/Github-Profile-Search-Project/">📱 Visit this Project</a>
-</p>
-
-<h2 id="technologies">💻 Technologies</h2>
+## <a name="tech-stack">👩‍💻 Tech Stack</a>
 
 - HTML
 - CSS
 - JavaScript
 
-<h2 id="started">🚀 Getting started</h2>
+## <a name="features">✨ Features</a>
 
- 
+- Fetched GitHub user data using the GitHub API, including avatar, bio, followers, following, and repository overview.
 
-<h3>Cloning</h3>
+- Displayed user info in a clean, card style layout for easy viewing of any GitHub profile.
 
-Clone the project by adding the following command in the terminal.
-Make sure your have git installed and added to path.
+- Showed the 5 most recent repositories for each user, with clickable links to their GitHub pages.
+
+- Real-time data fetching to ensure users always see the latest profile and repo information.
+
+- Error handling to notify users if no results are found or if there’s a problem with the input.
+
+- Responsive layout built with CSS and mobile-first media queries for a smooth experience on all screen sizes.
+
+- JavaScript was used to handle API requests and user interactions efficiently.
+
+## <a name="getting-started">📦 Getting Started</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**clone the repository**
 
 ```bash
 git clone https://github.com/Rohitbiradar111/Github-Profile-Search-Project.git
 ```
-Install dependencies
+
+**Install dependencies**
 
 ```bash
   npm install
 ```
 
-Start the server
+**Start the server**
 
 ```bash
   npm run dev
 ```
 
-<h2 id="contribute">📫 Contribute</h2>
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-Contributions are always welcomed. Feel free to raise issues or send in pull requests.
-
-<h3>Documentations that might help</h3>
+## <a name="documentation">📖 Documentation</a>
 
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 [Github](https://docs.github.com/en)
 
+## <a name="contribute">📫 Contribute</a>
+
+Contributions are always welcome. Please follow these steps to contribute:
+
+1. **Fork the repository.**
+2. **Create a new branch** (`git checkout -b feature/your-feature-name`).
+3. **Make your changes** and commit them (`git commit -m 'Add some feature'`).
+4. **Push to the branch** (`git push origin feature/your-feature-name`).
+5. **Open a pull request**.
+
+Please make sure to update tests as appropriate.
+
+## <a name="issues">🐛 Issues</a>
+
+If you encounter any issues while using or setting up the project, please check the issues section to see if it has already been reported. If not, feel free to open a new issue detailing the problem.
+
+When reporting an issue, please include:
+
+- A clear and descriptive title.
+- A detailed description of the problem.
+- Steps to reproduce the issue.
+- Any relevant logs or screenshots.
+- The environment in which the issue occurs (OS, browser, Node.js version, etc.).
