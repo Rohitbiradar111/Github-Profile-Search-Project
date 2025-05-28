@@ -53,20 +53,6 @@ Follow these steps to set up the project locally on your machine.
 git clone https://github.com/Rohitbiradar111/Github-Profile-Search-Project.git
 ```
 
-**Install dependencies**
-
-```bash
-  npm install
-```
-
-**Start the server**
-
-```bash
-  npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
 ## <a name="documentation">📖 Documentation</a>
 
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
